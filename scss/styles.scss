@@ -372,7 +372,7 @@ footer {
     h1 {
         color: #fff;
         font-weight: 900;
-        font-size: 3em;
+        font-size: 4.8em;
         text-transform: uppercase;
         letter-spacing: 0.05em;
         line-height: 0.9em;
@@ -673,6 +673,15 @@ footer {
         color: $text;
         margin: 0 0 15px 0;
         font-size: 0.9em;
+    }
+
+    .built {
+      border-right: 2px solid grey;
+      padding-right: 5px;
+    }
+
+    .code {
+      padding-left: 5px;
     }
 }
 
